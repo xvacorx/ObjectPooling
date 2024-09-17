@@ -46,8 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af48c8f667371c4591f0b3b9f7ccac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefabs: []
-  cantidadInicial: 3
+  objectPrefabs:
+  - {fileID: 7705499794318301043, guid: 612f84f1713be2e449209c4730ef011f, type: 3}
+  - {fileID: 5567143778921635335, guid: 01a93879bf139964a91a5160e4c2f18c, type: 3}
+  - {fileID: 4955575750885942479, guid: 255f727474889c94e953c1edf5e5747d, type: 3}
+  initialCount: 3
 --- !u!114 &2129385111568462373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 0}
-  intervaloGeneracion: 3
+  generationInterval: 3.5
 --- !u!114 &1825275562174600202
 MonoBehaviour:
   m_ObjectHideFlags: 0
